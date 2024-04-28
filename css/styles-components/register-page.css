@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --background-gray-color: #5F5982;
+  --background-footer-color: #3F3F48;
+  --background-orange-color: #629df5;
+  --background-warning-color: #4929fd;
+  --background-orange-light-color: #FCD5D2;
+  --background-orange-light-color: #FFEAEA;
+  --background-light-color: #EAEAEA;
+  --background-light-color-2: #EFEFF6;
+  --background-pink-color: #FD9697;
+  --background-light-color-3: #FEF0EF;
+  --font-dark-gray-color: #302D3A;
+  --font-orange-color: #6282f5;
+  --font-gold-color: #F68C20;
+  --font-gray-color: #5F5982;
+  --font-light-color: #7A7A7A;
+  --white-color: #FFFFFF;
+  --font-lead-color: #CAC6D4;
+  --font-lead-color-2: #F7F7FA;
+  --font-lead-color-3: #91929A;
+  --font-primary-color: #4098FF;
+  --background-aqua-color: #DDF7FF;
+  --button-color: #91929A;
+  --forgot-password: #6C63FF;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn-orange {
+  background: var(--background-orange-color);
+  color: var(--white-color);
+  transition: 0.3s;
+}
+.btn-orange:hover {
+  color: var(--font-orange-color);
+  border: 1px solid var(--font-orange-color);
+  background: var(--white-color);
+}
+
+section{
+  max-width: 1360px;
+  margin: 0 auto;
+}
+section#register .register {
+  width: 100%;
+}
+section#register .register .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section#register .register .content .left-content {
+  position: relative;
+  background: var(--background-pink-color);
+  width: 100%;
+  width: 50%;
+  padding-left: 80px;
+  padding-top: 36px;
+}
+section#register .register .content .left-content .img-1 {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 350px;
+  height: 250px;
+  transition: 0.3s ease;
+}
+section#register .register .content .left-content .img-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section#register .register .content .left-content .img-2 {
+  position: absolute;
+  top: 150px;
+  right: 140px;
+  width: 480px;
+  height: 470px;
+  transition: 0.3s ease;
+}
+section#register .register .content .left-content .img-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section#register .register .content .left-content .title {
+  position: absolute;
+  width: 550px;
+  top: 600px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+section#register .register .content .left-content .title h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--white-color);
+}
+section#register .register .content .left-content .title p {
+  text-align: center;
+  font-size: 16px;
+  color: var(--white-color);
+  font-weight: normal;
+}
+section#register .register .content .right-content {
+  width: 50%;
+  padding: 0 80px 0 40px;
+}
+section#register .register .content .right-content .register-content {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  margin-top: 36px;
+  margin-bottom: 28px;
+  justify-content: flex-end;
+}
+section#register .register .content .right-content .register-content div {
+  display: flex;
+  align-items: center;
+}
+section#register .register .content .right-content .register-content .have-account {
+  font-size: 16px;
+  color: var(--font-gray-color);
+  text-decoration: none;
+  margin-right: 40px;
+}
+section#register .register .content .right-content .register-content .btn {
+  width: 125px;
+  height: 56px;
+}
+section#register .register .content .right-content .register-content .logo {
+  margin-right: 1rem;
+  display: none;
+}
+section#register .register .content .right-content .form-content {
+  padding-left: 40px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+section#register .register .content .right-content .form-content h2 {
+  font-size: 40px;
+  color: var(--font-dark-gray-color);
+  font-weight: normal;
+  width: 505px;
+}
+section#register .register .content .right-content .form-content p {
+  margin-top: 30px;
+  font-size: 24px;
+  color: var(--font-gray-color);
+}
+section#register .register .content .right-content .form-content .form {
+  min-width: 500px;
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+section#register .register .content .right-content .form-content .form label {
+  color: var(--font-dark-gray-color);
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+}
+section#register .register .content .right-content .form-content .form .password {
+  display: flex;
+  justify-content: space-between;
+}
+section#register .register .content .right-content .form-content .form .password a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: var(--forgot-password);
+  transition: 0.3s ease;
+}
+section#register .register .content .right-content .form-content .form .password a:hover {
+  text-decoration: underline;
+}
+section#register .register .content .right-content .form-content .form input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--font-lead-color);
+  padding-left: 17px;
+  height: 56px;
+}
+section#register .register .content .right-content .form-content .form input:placeholder {
+  color: var(--font-light-color);
+  font-size: 14px;
+}
+section#register .register .content .right-content .form-content .form .password{
+  position: relative;
+}
+section#register .register .content .right-content .form-content .form img{
+  position: absolute;
+  right: 5%;
+  top:50%;
+  transform: translateY(-50%);
+}
+section#register .register .content .right-content .form-content .form .btn {
+  margin-top: 40px;
+  border: none;
+}
+section#register .register .content .right-content .form-content .form .btn:hover {
+  border: 1px solid var(--font-lead-color);
+}
+section#register .register .content .right-content .form-content .or {
+  margin: 30px 0;
+  height: 36px;
+  position: relative;
+  font-size: 24px;
+  color: var(--font-gray-color);
+  width: 100%;
+  text-align: center;
+}
+section#register .register .content .right-content .form-content .or:after {
+  position: absolute;
+  content: "";
+  width: 215px;
+  height: 1px;
+  background: var(--font-lead-color);
+  top: 45%;
+  left: 0;
+}
+section#register .register .content .right-content .form-content .or:before {
+  position: absolute;
+  content: "";
+  width: 215px;
+  height: 1px;
+  background: var(--font-lead-color);
+  top: 45%;
+  right: 0;
+}
+section#register .register .content .right-content .form-content .sign {
+  height: 70px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid var(--font-lead-color);
+  transition: 0.3s ease;
+  color: var(--font-gray-color);
+  font-size: 18px;
+}
+section#register .register .content .right-content .form-content .sign:hover {
+  text-decoration: underline;
+}
+section#register .register .content .right-content .form-content .sign img{
+  margin-right: 1.5rem;
+}
+section#register .register .content .right-content .form-content h6 {
+  padding: 30px 0;
+  font-size: 16px;
+  color: var(--font-gray-color);
+  font-weight: normal;
+}
+section#register .register .content .right-content .form-content h6 a {
+  color: var(--font-gold-color);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  section#register .register .content {
+    display: flex;
+    justify-content: center;
+  }
+  section#register .register .content .left-content {
+    display: none;
+  }
+  section#register .register .content .right-content {
+    width: 100%;
+    padding-right: 80px;
+  }
+  section#register .register .content .right-content .register-content {
+    padding-left: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+  section#register .register .content .right-content .register-content .logo {
+    display: block;
+  }
+  section#register .register .content .right-content .form-content .or:after {
+    width: 400px;
+  }
+  section#register .register .content .right-content .form-content .or:before {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  section#register .register .content .right-content {
+    padding-right: 80px;
+  }
+  section#register .register .content .right-content .form-content .or:after {
+    width: 270px;
+  }
+  section#register .register .content .right-content .form-content .or:before {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#register .register .content .right-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  section#register .register .content .right-content .register-content {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  section#register .register .content .right-content .register-content .have-account {
+    display: none;
+  }
+  section#register .register .content .right-content .register-content .btn {
+    height: 57px;
+    width: 120px;
+  }
+  section#register .register .content .right-content .form-content {
+    min-width: 0;
+    padding: 0px;
+  }
+  section#register .register .content .right-content .form-content h2 {
+    font-size: 24px;
+  }
+  section#register .register .content .right-content .form-content p {
+    font-size: 16px;
+  }
+  section#register .register .content .right-content .form-content .form {
+    min-width: 0;
+  }
+  section#register .register .content .right-content .form-content .or {
+    font-size: 16px;
+  }
+  section#register .register .content .right-content .form-content .or:after {
+    top: 30%;
+    width: 120px;
+  }
+  section#register .register .content .right-content .form-content .or:before {
+    top: 30%;
+    width: 120px;
+  }
+  section#register .register .content .right-content .form-content .sign {
+    height: 57px;
+  }
+}
+
+/*# sourceMappingURL=register-page.css.map */

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --background-gray-color: #5F5982;
+  --background-footer-color: #3F3F48;
+  --background-orange-color: #F56962;
+  --background-warning-color: #F5922E;
+  --background-orange-light-color: #FCD5D2;
+  --background-orange-light-color: #FFEAEA;
+  --background-light-color: #EAEAEA;
+  --background-light-color-2: #EFEFF6;
+  --background-pink-color: #FD9697;
+  --background-light-color-3: #FEF0EF;
+  --font-dark-gray-color: #302D3A;
+  --font-orange-color: #F56962;
+  --font-gold-color: #F68C20;
+  --font-gray-color: #5F5982;
+  --font-light-color: #7A7A7A;
+  --white-color: #FFFFFF;
+  --font-lead-color: #CAC6D4;
+  --font-lead-color-2: #F7F7FA;
+  --font-lead-color-3: #91929A;
+  --font-primary-color: #4098FF;
+  --background-aqua-color: #DDF7FF;
+  --background-aqua-color-2: #DEDEE3;
+  --button-color: #91929A;
+  --forgot-password: #6C63FF;
+  --card-warning-light-color: #FEF3E9;
+  --card-warning-color: #EF8543;
+  --card-ink-light-color: #EFEFF6;
+  --card-ink-color: #5444A5;
+  --card-primary-light-color: #DDF7FF;
+  --card-primary-color: #18AFED;
+  --card-green-light-color: #E7FBEB;
+  --card-green-color: #5FD46D;
+
+}
+.basic-title {
+  color: var(--font-dark-gray-color);
+  font-size: 2.5rem;
+}
+section {
+  max-width: 1360px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 576px) {
+  .basic-title {
+    font-size: 20px;
+  }
+}

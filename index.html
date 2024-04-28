@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/global_styles.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Skillfy by Satish</title>
+</head>
+<body>
+    <section id="navbar">
+      <div class="navbar">
+        <nav>
+          <a href="#">
+            <img src="./img/Logo.png" alt="logo">
+          </a>
+          <!-- To call the input search form below -->
+          <input type="checkbox" id="show-search">
+
+          <!-- To call the input toggler menu below -->
+          <input type="checkbox" id="menu-bar">
+
+          <!-- Main navigation menu -->
+          <ul class="navigation">
+            <li class="drop-item">
+              <!--Main menu name. An additional menu will open when it hovers -->
+              <label class="label">
+                <a href="#" class="menu">Home
+                  <img src="./img/Dropdown.png" alt="">
+                </a>
+              </label>
+              <!-- An additional menu that opens when you hover -->
+              <ul class="menu-items">
+                <!-- Each ‘li’ element is a series of links  -->
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-back" ></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-bookmarks"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-gear"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="drop-item">
+              <!-- Main menu name. An additional menu will open when it hovers -->
+              <label class="label">
+                <a href="#" class="menu">Pages
+                  <img src="./img/Dropdown.png" alt="">
+                </a>
+              </label>
+              <!-- An additional menu that opens when you hover-->
+              <ul class="menu-items">
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-wallet2"></i>
+                  </div>
+                  <a href="./pages/course-page.html">
+                    <span>Course page</span>
+                    <p>Cart</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-cart3"></i>
+                  </div>
+                  <a href="./pages/shopping-cart.html">
+                    <span>Shopping Cart page</span>
+                    <p>Cart</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-box-arrow-in-right"></i>
+                  </div>
+                  <a href="./pages/login-page.html">
+                    <span>Login page</span>
+                    <p>Login</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-journal-bookmark"></i>
+                  </div>
+                  <a href="./pages/register-page.html">
+                    <span>Register page</span>
+                    <p>Register</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-clipboard-minus"></i>
+                  </div>
+                  <a href="./pages/blog.html">
+                    <span>Blog page</span>
+                    <p>Blog</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li  class="drop-item courses">
+              <label class="label">
+                <a href="#" class="menu">Courses
+                  <img src="./img/Dropdown.png" alt="">
+                </a>
+              </label>
+              <!-- The menu below is a multi menu. It is built using JavaScript -->
+              <div class="tabs">
+                <div class="tabs-sidebar">
+                  <!-- Below are the main sections on the left side of the multi menu. An additional menu will open when it hovers -->
+                  <button class="tabs-button" data-for-tab="0">
+                    Main Course Page <img src="./img/Dropdown.png" alt="">
+                  </button>
+                  <button class="tabs-button" data-for-tab="1">Development <img src="./img/Dropdown.png" alt=""></button>
+                  <button class="tabs-button" data-for-tab="2">Business <img src="./img/Dropdown.png" alt=""></button>
+                  <button class="tabs-button" data-for-tab="3">Finance & Accounting <img src="./img/Dropdown.png" alt=""></button>
+                  <button class="tabs-button" data-for-tab="4">IT & Software <img src="./img/Dropdown.png" alt=""></button>
+                  <button class="tabs-button" data-for-tab="5">Design <img src="./img/Dropdown.png" alt=""></button>
+                  <button class="tabs-button" data-for-tab="6">Marketing <img src="./img/Dropdown.png" alt=""></button>
+                  <button class="tabs-button" data-for-tab="7">Lifestyle <img src="./img/Dropdown.png" alt=""></button>
+                </div>
+                <!-- Below are additional sections in the top ten of the multi menu. -->
+                <div class="tabs-content" data-tab="0">
+                  <ul>
+                    <li><a href="./pages/course-page.html">Main Course Page</a></li>
+                  </ul>
+                </div>
+                <div class="tabs-content" data-tab="1">
+                  <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">Mobile Development</a></li>
+                    <li><a href="#">Programmimg Language</a></li>
+                    <li><a href="#">Database Design & Development</a></li>
+                    <li><a href="#">Game Programmimg</a></li>
+                  </ul>
+                </div>
+                <div class="tabs-content" data-tab="2">
+                  <ul>
+                    <li><a href="#">Entrepreneurship</a></li>
+                    <li><a href="#">Communication</a></li>
+                    <li><a href="#">Management</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Business-strategy</a></li>
+                    <li><a href="#"><Operations></Operations></a></li>
+                  </ul>
+                </div>
+                <div class="tabs-content" data-tab="3">
+                  <ul>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Bookkeeping</a></li>
+                    <li><a href="#">Cryptocurrency</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Taxes</a></li>
+                    <li><a href="#">Investing</a></li>
+                    <li><a href="#">Trading</a></li>
+                  </ul>
+                </div>
+                <div class="tabs-content" data-tab="4">
+                  <ul>
+                    <li><a href="#">IT Serifications</a></li>
+                    <li><a href="#">Network & Security </a></li>
+                    <li><a href="#">Hardware</a></li>
+                    <li><a href="#">Operating systems & Server</a></li>
+                    <li><a href="#">Other IT & Software</a></li>
+                  </ul>
+                </div>
+                <div class="tabs-content" data-tab="5">
+                  <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Design Tools</a></li>
+                    <li><a href="#">Game Design</a></li>
+                    <li><a href="#">Design Thinking</a></li>
+                    <li><a href="#">3D Animation</a></li>
+                    <li><a href="#">Interior Design</a></li>
+                    <li><a href="#">Architectural Design</a></li>
+                    <li><a href="#">Other Design</a></li>
+                  </ul>
+                </div>
+                <div class="tabs-content" data-tab="6">
+                  <ul>
+                    <li><a href="#">IT Serifications</a></li>
+                    <li><a href="#">Network & Security </a></li>
+                    <li><a href="#">Hardware</a></li>
+                    <li><a href="#">Operating systems & Server</a></li>
+                    <li><a href="#">Other IT & Software</a></li>
+                  </ul>
+                </div>
+                <div class="tabs-content" data-tab="7">
+                  <ul>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Bookkeeping</a></li>
+                    <li><a href="#">Cryptocurrency</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Taxes</a></li>
+                    <li><a href="#">Investing</a></li>
+                    <li><a href="#">Trading</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="drop-item">
+              <label class="label">
+                <a href="#" class="menu">Features
+                  <img src="./img/Dropdown.png" alt="">
+                </a>
+              </label>
+              <ul class="menu-items">
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-back" ></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-bookmarks"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-gear"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="drop-item">
+              <label class="label">
+                <a href="#" class="menu">Blog
+                  <img src="./img/Dropdown.png" alt="">
+                </a>
+              </label>
+              <ul class="menu-items">
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-back" ></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-bookmarks"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-gear"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="drop-item">
+              <label class="label">
+                <a href="#" class="menu">Shops
+                  <img src="./img/Dropdown.png" alt="">
+                </a>
+              </label>
+              <ul class="menu-items">
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-cart3"></i>
+                  </div>
+                  <a href="./pages/shopping-cart.html">
+                    <span>Main Shopping Cart</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-bookmarks"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+                <li class="drop-items">
+                  <div class="icons">
+                    <i class="bi bi-gear"></i>
+                  </div>
+                  <a href="#">
+                    <span>Lorem ipsum</span>
+                    <p>Best practises</p>
+                  </a>
+                  <div class="arrow-right">
+                    <i class="bi bi-arrow-right"></i>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Search content -->
+          <form action="#" class="search-box">
+            <!-- Input for desktop -->
+            <input type="text" placeholder="Search your favourite course" required>
+            <!-- Input for mobile -->
+            <input class="for-mobile" type="text" placeholder="Search..." required>
+            <button type="submit" class="go-icon"><img src="./img/search.png" alt=""></button>
+          </form>
+          <div class="menu-toggler">
+            <!-- Button for call search content -->
+            <label for="show-search" class="search-icon"><img src="./img/search.png" alt=""></label>
+            <!-- Link for Shopping cart -->
+            <button type="button" class="btn shop-btn"><img src="./img/shopping-cart.png" alt=""></button>
+            <!--User's content-->
+            <div class="user">
+              <div class="img-content">
+                <!-- This is the user part. When he hover, the content of the user data appears on the screen. Now it is given display: none -->
+                <div class="img">
+                  <img src="./img/teammm.png" alt="user" class="user">
+                </div>
+              </div>
+              <div class="user-info-box">
+                <!-- Content containing user data -->
+                <div class="user-info">
+                  <div class="border">
+                    <a href="#">Become a member</a>
+                  </div>
+                  <div class="border">
+                    <a href="#">New story</a>
+                    <a href="#">Stories</a>
+                    <a href="#">Series</a>
+                    <a href="#">Stats</a>
+                  </div>
+                  <div class="border">
+                    <a href="#">Bookmarks</a>
+                    <a href="#">Publications</a>
+                    <a href="#">Customize your interests</a>
+                  </div>
+                  <div class="">
+                    <a href="#">Profile</a>
+                    <a href="#">Setting</a>
+                    <a href="#">Help</a>
+                  </div>
+                </div>
+              </div>
+              <div class="members">
+                <!-- List of all users -->
+                <label class="label">
+                  <a href="#" class="menu">User
+                    <img src="./img/Dropdown.png" alt="">
+                  </a>
+                </label>
+                <div class="members-box">
+                  <ul class="menu-items">
+                    <li><a href="#">User 2</a></li>
+                    <li><a href="#">User 3</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--The button that leads to the registration page -->
+            <a class="register-btn btn btn-orange" href="./pages/register-page.html">Register</a>
+
+            <!-- Menu button -->
+            <label for="menu-bar" class="menu-bar-icon"><img src="./img/Menu.png" alt="icon"></label>
+          </div>
+        </nav>
+        </div>
+    </section>
+    <section id="banner">
+      <div class="banner">
+        <div class="text-content">
+          <h1>
+            <span>Skillfy </span>is the one stop for all students
+          </h1>
+          <p>
+            Get here study material for all classes, entrance exams, and competitive exams,
+            and latest <br> education news.
+          </p>
+          <button type="button" class="btn btn-orange">Entroll now</button>
+          <div class="share">
+            <p>Share now</p>
+            <ul>
+              <a href="#">Tw</a>
+              <a href="#">Fb</a>
+              <a href="#">Be</a>
+              <a href="#">In</a>
+              <a href="#">Db</a>
+            </ul>
+          </div>
+        </div>
+        <div class="img-content">
+          <img src="./img/banner.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="cards">
+      <div class="cards">
+        <h2 class="basic-title">
+          Achieve your goals with Skillfy
+        </h2>
+        <div class="carding">
+          <div class="card" >
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <img  src="./img/Icon3.png" alt="">
+            <img class="smallicon" src="./img/cardicon.png" alt="">
+            <div class="cardbody">
+              <h5>
+                Get ready for a career
+              </h5>
+              <p>
+                Start streaming on-demand video
+                lectures today from top instructors
+                in subjects…
+              </p>
+            </div>
+          </div>
+          <div class="card" >
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <img  src="./img/Icon3.png" alt="">
+            <img class="smallicon" src="./img/cardicon.png" alt="">
+            <div class="cardbody">
+              <h5>
+                Get ready for a career
+              </h5>
+              <p>
+                Start streaming on-demand video
+                lectures today from top instructors
+                in subjects…
+              </p>
+            </div>
+          </div>
+          <div class="card" >
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <img  src="./img/Icon3.png" alt="">
+            <img class="smallicon" src="./img/cardicon.png" alt="">
+            <div class="cardbody">
+              <h5>
+                Get ready for a career
+              </h5>
+              <p>
+                Start streaming on-demand video
+                lectures today from top instructors
+                in subjects…
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="learner">
+      <div class="learner">
+        <div class="text-content">
+          <h2  class="basic-title">
+            Learner outcomes  on Skillfy
+          </h2>
+          <p>
+            87% of people learning for professional
+            development report career benefits like
+            getting a promotion, a raise, or <br>
+            starting a new career
+          </p>
+          <h5>
+            <img src="./img/true.png" alt="icon">
+            <span>Top instructors from around world</span>
+          </h5>
+          <h5>
+            <img src="./img/true.png" alt="icon">
+            <span>Top courses for your team.</span>
+          </h5>
+          <button type="button" class="btn btn-orange">
+            Start learning now
+          </button>
+        </div>
+        <div class="img-content">
+          <img src="./img/eduu.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="getchoise">
+      <div class="getchoise">
+        <div class="top">
+          <h2 class="basic-title">
+            Get choice of your course
+          </h2>
+          <div>
+            <ul>
+              <li class="dropdown">
+                <a href="#">Design <img src="./img/Dropdown.png" alt=""></a>
+              </li>
+              <ul class="ul">
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Another action</a>
+                </li>
+                <li>
+                  <a href="#">Something else here</a>
+                </li>
+              </ul>
+            </ul>
+            <a href="./pages/getchoise_cards.html" class="btn  btn-orange" >View all</a>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="slider-card">
+      <div class="slider-card">
+        <div class="top">
+          <h2 class="basic-title">The world’s largest selection of courses</h2>
+          <div>
+            <ul>
+              <li class="dropdown">
+                <a href="#">Design <img src="./img/Dropdown.png" alt="dropdown"></a>
+              </li>
+              <ul class="ul">
+                <li>
+                  <a href="#">Action</a>
+                </li>
+                <li>
+                  <a href="#">Another action</a>
+                </li>
+                <li>
+                  <a href="#">Something else here</a>
+                </li>
+              </ul>
+            </ul>
+            <a class="btn  btn-orange" type="button">View all</a>
+          </div>
+        </div>
+        <div class="cards" id="cards">
+          <div class="product1">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="product1">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="product1">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="product1">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="product1">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+          <div class="product1">
+            <div class="img-content">
+              <img src="./img/edu.jpg" alt="check" class="card-img-top">
+            </div>
+            <div class="top-content">
+              <h6>
+                <img class="basicicons" src="./img/Star.png" alt="">
+                <img class="minicons" src="./img/starmini.png" alt="">
+                4.5 (120)
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/eeyes.png" alt="">
+                <img class="minicons" src="./img/eyemini.png" alt="">
+                28,500
+              </h6>
+              <h6>
+                <img class="basicicons" src="./img/play.png" alt="">
+                <img class="minicons" src="./img/playmini.png" alt="">
+                36 Lesion
+              </h6>
+            </div>
+            <h3> Everything You Need  to Know About Business </h3>
+            <div class="bottom-content">
+              <div class="left-content">
+                <img src="./img/Rectangle 22.png"  alt="" />
+                <h6>Nicole Brown</h6>
+              </div>
+              <div class="right-content">
+                <strike>$99.99</strike>
+                <h5>$49.65</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controller">
+          <button type="button" class="btn"  id="prev1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            </svg>
+           </button>
+          <div class="line">
+            <span></span>
+          </div>
+          <button type="button" class="btn"  id="next1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="everyone">
+      <div class="everyone">
+        <h2 class="basic-title">Every one deserves the chance to learn with skillfy</h2>
+        <p>Join now to receive personalised recommendations from the full Skillfy catalog.</p>
+        <button class="btn btn-orange">Start learning now</button>
+      </div>
+    </section>
+    <section id="cards-2">
+      <div class="cards-2">
+        <header>
+          <h2 class="basic-title">The world’s largest selection of courses</h2>
+          <div class="buttons">
+            <button id="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg>
+            </button>
+            <button id="next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+            </button>
+          </div>
+        </header>
+        <div class="cards-second">
+          <div class="product">
+            <div class="top-content">
+              <div class="img-content">
+                <img src="./img/yuser.png" alt="">
+              </div>
+              <div class="text-content">
+                <h6>Jonath</h6>
+                <p>CEO at Madbrains</p>
+              </div>
+              <div class="img-content">
+                <img src="./img/twitter.png" alt="">
+              </div>
+            </div>
+            <div class="bottom-content">
+              <p>
+                Skillfy is a life saver. I don’t have the tmoney for a college education.
+                 Platform <a href="#">@Skillfy  </a></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="top-content">
+              <div class="img-content">
+                <img src="./img/yuser.png" alt="">
+              </div>
+              <div class="text-content">
+                <h6>Jonath</h6>
+                <p>CEO at Madbrains</p>
+              </div>
+              <div class="img-content">
+                <img src="./img/twitter.png" alt="">
+              </div>
+            </div>
+            <div class="bottom-content">
+              <p>
+                Skillfy is a life saver. I don’t have the tmoney for a college education.
+                 Platform <a href="#">@Skillfy  </a></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="top-content">
+              <div class="img-content">
+                <img src="./img/yuser.png" alt="">
+              </div>
+              <div class="text-content">
+                <h6>Jonath</h6>
+                <p>CEO at Madbrains</p>
+              </div>
+              <div class="img-content">
+                <img src="./img/twitter.png" alt="">
+              </div>
+            </div>
+            <div class="bottom-content">
+              <p>
+                Skillfy is a life saver. I don’t have the tmoney for a college education.
+                 Platform <a href="#">@Skillfy  </a></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="top-content">
+              <div class="img-content">
+                <img src="./img/yuser.png" alt="">
+              </div>
+              <div class="text-content">
+                <h6>Jonath</h6>
+                <p>CEO at Madbrains</p>
+              </div>
+              <div class="img-content">
+                <img src="./img/twitter.png" alt="">
+              </div>
+            </div>
+            <div class="bottom-content">
+              <p>
+                Skillfy is a life saver. I don’t have the tmoney for a college education.
+                 Platform <a href="#">@Skillfy  </a></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="top-content">
+              <div class="img-content">
+                <img src="./img/yuser.png" alt="">
+              </div>
+              <div class="text-content">
+                <h6>Jonath</h6>
+                <p>CEO at Madbrains</p>
+              </div>
+              <div class="img-content">
+                <img src="./img/twitter.png" alt="">
+              </div>
+            </div>
+            <div class="bottom-content">
+              <p>
+                Skillfy is a life saver. I don’t have the tmoney for a college education.
+                 Platform <a href="#">@Skillfy  </a></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="top-content">
+              <div class="img-content">
+                <img src="./img/yuser.png" alt="">
+              </div>
+              <div class="text-content">
+                <h6>Jonath</h6>
+                <p>CEO at Madbrains</p>
+              </div>
+              <div class="img-content">
+                <img src="./img/twitter.png" alt="">
+              </div>
+            </div>
+            <div class="bottom-content">
+              <p>
+                Skillfy is a life saver. I don’t have the tmoney for a college education.
+                 Platform <a href="#">@Skillfy</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="app">
+      <div class="app">
+        <h2>App is available for free</h2>
+        <div>
+          <button class="btn android"><img src="./img/android.png" alt="icon">Android app</button>
+          <button class="btn btn-orange ios"><img src="./img/company.png" alt="icon">IOS app</button>
+        </div>
+      </div>
+    </section>
+    <section id="team">
+      <div class="team">
+        <div class="cards">
+          <div class="card card-1">
+            <div class="img-content"><img src="./img/teammm.png" alt=""></div>
+            <div class="text-content">
+              <h6>Become a Teacher</h6>
+              <p>Teach what you love. Coursector gives
+                you the tools to create a course.</p>
+              <button class="btn btn-orange">Apply as teacher</button>
+            </div>
+          </div>
+          <div class="card card-2">
+            <div class="img-content"><img src="./img/teammm.png" alt=""></div>
+            <div class="text-content">
+              <h6>Coursector for Business</h6>
+              <p>Get unlimited access to 3,000+ of
+                Coursector’s top courses for your team</p>
+              <button class="btn btn-orange">Get skillfy for business</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="footer">
+        <div class="links">
+          <div>
+            <!-- input to open and close the following ul on mobile devices -->
+            <input type="checkbox" id="input-1">
+            <label for="input-1">
+              <p>Company</p>
+              <span class="plus">+</span>
+            </label>
+            <ul class="navb">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Affiliates</a></li>
+            </ul>
+          </div>
+          <div>
+            <input type="checkbox" id="input-2">
+            <label for="input-2">
+              <p>Commmunity</p>
+              <span class="plus">+</span>
+            </label>
+            <ul>
+              <li><a href="#">Go Premium</a></li>
+              <li><a href="#">Team Plans</a></li>
+              <li><a href="#">Refer a Friend</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Scholarships</a></li>
+              <li><a href="#">Free Classes</a></li>
+            </ul>
+          </div>
+          <div>
+            <input type="checkbox" id="input-3">
+            <label for="input-3">
+              <p>About us</p>
+              <span class="plus">+</span>
+            </label>
+            <ul>
+              <li><a href="#">Become a</a></li>
+              <li><a href="#">Teacher</a></li>
+              <li><a href="#">Teaching</a></li>
+              <li><a href="#">Academy</a></li>
+              <li><a href="#">Teacher</a></li>
+              <li><a href="#">Handbook </a></li>
+            </ul>
+          </div>
+          <div>
+            <input type="checkbox" id="input-4">
+            <label for="input-4">
+              <p>Support</p>
+              <span class="plus">+</span>
+            </label>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">System Requirements</a></li>
+              <li><a href="#">Register Activation</a></li>
+              <li><a href="#">Key</a></li>
+              <li><a href="#">Site feedback</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom">
+          <h2>© 2015-2020 Skillfy Education Private Limited. All rights reserved</h2>
+          <div class="link">
+            <a href="#"><img src="./img/fb.png" alt=""></a>
+            <a href="#"><img src="./img/tw.png" alt=""></a>
+            <a href="#"><img src="./img/gg.png" alt=""></a>
+            <a href="#"><img src="./img/in.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <script type="text/javascript" src="./script/main.js" /> -->
+    <script type="text/javascript">
+    // Multi menu
+    function setupTabs() {
+      document.querySelectorAll(".tabs-button").forEach(button => {
+          button.addEventListener("mousemove", () => {
+            const sideBar = button.parentElement;
+            const tabsContainer = sideBar.parentElement;
+            const tabNumber = button.dataset.forTab;
+            const tabToActivate = tabsContainer.querySelector(`.tabs-content[data-tab="${tabNumber}"]`);
+
+            sideBar.querySelectorAll(".tabs-button").forEach(button => {
+              button.classList.remove("tabs-button--active");
+            });
+            tabsContainer.querySelectorAll(".tabs-content").forEach(tab => {
+              tab.classList.remove("tabs-content--active");
+            });
+            button.classList.add("tabs-button--active");
+            tabToActivate.classList.add("tabs-content--active");
+          })
+      });
+    }
+    document.addEventListener("DOMContentLoaded", () => {
+      setupTabs();
+      document.querySelectorAll(".tabs").forEach(tabsConteiner => {
+        tabsContainer.querySelector(".tabs-sidebar .tabs-button").click();
+      });
+    });
+  // First slider
+  let prev1 = document.getElementById('prev1');
+  let next1 = document.getElementById('next1');
+  let product1 = document.getElementsByClassName('product1');
+  let product1_page = Math.ceil(product1.length/3);
+  let left = 0;
+  let movePer1 = 33.34;
+  let maxMove1 = 303;
+
+  let right_mover1 = ()=>{
+    left = left + movePer1;
+    if(product1==1){l=0}
+    for(const i of product1)
+    {
+      if(left>maxMove) {left=left-movePer1;}
+      i.style.left = '-' + left + '%';
+    }
+  }
+  let left_mover1 = ()=>{
+    left=left - movePer1;
+    if (left<=0) {left=0;}
+    for(const i of product1)
+    {
+      if(product1_page>1)
+      i.style.left = '-' + left + '%';
+    }
+  }
+  prev1.onclick = ()=>{left_mover1();}
+  next1.onclick = ()=>{right_mover1();}
+
+
+  // Second slider
+  let prev = document.getElementById('prev');
+  let next = document.getElementById('next');
+  let product = document.getElementsByClassName('product');
+  let product_page = Math.ceil(product.length/4);
+  let l = 0;
+  let movePer = 33.34;
+  let maxMove = 303;slideWrapper = document.querySelector('.offer-slider');
+  //Mobile view Tablet
+  let tablet_view = window.matchMedia("(max-width: 1024px)");
+  if (tablet_view.matches)
+  {
+    movePer = 50.36;
+    maxMove = 504;
+  }
+  let right_mover = ()=>{
+    l = l + movePer;
+    if(product==1){l=0}
+    for(const i of product)
+    {
+      if(l>maxMove) {l=l-movePer;}
+      i.style.left = '-' + l + '%';
+    }
+  }
+  let left_mover = ()=>{
+    l=l-movePer;
+    if (l<=0) {l=0;}
+    for(const i of product)
+    {
+      if(product_page>1)
+      i.style.left = '-' + l + '%';
+    }
+  }
+  prev.onclick = ()=>{left_mover();}
+  next.onclick = ()=>{right_mover();}
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.top div ul ul{
+  left: 0;
+
+}
+@media screen and (max-width: 576px) {
+  section#getchoise .getchoise {
+    padding-top: 0;
+  }
+  section#getchoise .getchoise .cards {
+    margin-top: 0;
+    overflow-x: hidden !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section#getchoise .getchoise .cards .card {
+    width: 100%;
+    max-width: 576px;
+  }
+  section#getchoise .getchoise .cards .card .top-content {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=getchoise-page.css.map */

@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./../css/global_styles.css">
+  <link rel="stylesheet" href="./../css/styles-components/course-page.css">
+  <link rel="stylesheet" href="./../css/style.css">
+  <title>Course Page</title>
+</head>
+<body>
+  <section id="navbar">
+    <div class="navbar">
+      <nav>
+        <a href="./../index.html">
+          <img src="./../img/Logo.png" alt="logo">
+        </a>
+        <!-- To call the input search form below -->
+        <input type="checkbox" id="show-search">
+
+        <!-- To call the input toggler menu below -->
+        <input type="checkbox" id="menu-bar">
+
+        <!-- Main navigation menu -->
+        <ul class="navigation">
+          <li class="drop-item">
+            <!--Main menu name. An additional menu will open when it hovers -->
+            <label class="label">
+              <a href="./../index.html" class="menu">Home
+                <img src="./../img/Dropdown.png" alt="">
+              </a>
+            </label>
+            <!-- An additional menu that opens when you hover -->
+            <ul class="menu-items">
+              <!-- Each ‘li’ element is a series of links  -->
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-back" ></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-bookmarks"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-bookmarks"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-gear"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="drop-item">
+            <!-- Main menu name. An additional menu will open when it hovers -->
+            <label class="label">
+              <a href="#" class="menu">Pages
+                <img src="./../img/Dropdown.png" alt="">
+              </a>
+            </label>
+            <!-- An additional menu that opens when you hover-->
+            <ul class="menu-items">
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-wallet2"></i>
+                </div>
+                <a href="./course-page.html">
+                  <span>Course Page</span>
+                  <p>cart Cart</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-cart3"></i>
+                </div>
+                <a href="./shopping-cart.html">
+                  <span>Shopping Cart page</span>
+                  <p>Shop</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-box-arrow-in-right"></i>
+                </div>
+                <a href="./login-page.html">
+                  <span>Login page</span>
+                  <p>Login</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-journal-bookmark"></i>
+                </div>
+                <a href="./register-page.html">
+                  <span>Register page</span>
+                  <p>Register</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-clipboard-minus"></i>
+                </div>
+                <a href="./blog.html">
+                  <span>Blog page</span>
+                  <p>Blog</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li  class="drop-item courses">
+            <label class="label">
+              <a href="#" class="menu">Courses
+                <img src="./../img/Dropdown.png" alt="">
+              </a>
+            </label>
+            <!-- The menu below is a multi menu. It is built using JavaScript -->
+            <div class="tabs">
+              <div class="tabs-sidebar">
+                <!-- Below are the main sections on the left side of the multi menu. An additional menu will open when it hovers -->
+                <button class="tabs-button" data-for-tab="1">Development <img src="./../img/Dropdown.png" alt=""></button>
+                <button class="tabs-button" data-for-tab="2">Business <img src="./../img/Dropdown.png" alt=""></button>
+                <button class="tabs-button" data-for-tab="3">Finance & Accounting <img src="./../img/Dropdown.png" alt=""></button>
+                <button class="tabs-button" data-for-tab="4">IT & Software <img src="./../img/Dropdown.png" alt=""></button>
+                <button class="tabs-button" data-for-tab="5">Design <img src="./../img/Dropdown.png" alt=""></button>
+                <button class="tabs-button" data-for-tab="6">Marketing <img src="./../img/Dropdown.png" alt=""></button>
+                <button class="tabs-button" data-for-tab="7">Lifestyle <img src="./../img/Dropdown.png" alt=""></button>
+              </div>
+              <!-- Below are additional sections in the top ten of the multi menu. -->
+              <div class="tabs-content" data-tab="1">
+                <ul>
+                  <li><a href="#">Web Development</a></li>
+                  <li><a href="#">Data Science</a></li>
+                  <li><a href="#">Mobile Development</a></li>
+                  <li><a href="#">Programmimg Language</a></li>
+                  <li><a href="#">Database Design & Development</a></li>
+                  <li><a href="#">Game Programmimg</a></li>
+                </ul>
+              </div>
+              <div class="tabs-content" data-tab="2">
+                <ul>
+                  <li><a href="#">Entrepreneurship</a></li>
+                  <li><a href="#">Communication</a></li>
+                  <li><a href="#">Management</a></li>
+                  <li><a href="#">Sales</a></li>
+                  <li><a href="#">Business-strategy</a></li>
+                  <li><a href="#"><Operations></Operations></a></li>
+                </ul>
+              </div>
+              <div class="tabs-content" data-tab="3">
+                <ul>
+                  <li><a href="#">Accounting</a></li>
+                  <li><a href="#">Bookkeeping</a></li>
+                  <li><a href="#">Cryptocurrency</a></li>
+                  <li><a href="#">Economics</a></li>
+                  <li><a href="#">Finance</a></li>
+                  <li><a href="#">Taxes</a></li>
+                  <li><a href="#">Investing</a></li>
+                  <li><a href="#">Trading</a></li>
+                </ul>
+              </div>
+              <div class="tabs-content" data-tab="4">
+                <ul>
+                  <li><a href="#">IT Serifications</a></li>
+                  <li><a href="#">Network & Security </a></li>
+                  <li><a href="#">Hardware</a></li>
+                  <li><a href="#">Operating systems & Server</a></li>
+                  <li><a href="#">Other IT & Software</a></li>
+                </ul>
+              </div>
+              <div class="tabs-content" data-tab="5">
+                <ul>
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Graphic Design</a></li>
+                  <li><a href="#">Design Tools</a></li>
+                  <li><a href="#">Game Design</a></li>
+                  <li><a href="#">Design Thinking</a></li>
+                  <li><a href="#">3D Animation</a></li>
+                  <li><a href="#">Interior Design</a></li>
+                  <li><a href="#">Architectural Design</a></li>
+                  <li><a href="#">Other Design</a></li>
+                </ul>
+              </div>
+              <div class="tabs-content" data-tab="6">
+                <ul>
+                  <li><a href="#">IT Serifications</a></li>
+                  <li><a href="#">Network & Security </a></li>
+                  <li><a href="#">Hardware</a></li>
+                  <li><a href="#">Operating systems & Server</a></li>
+                  <li><a href="#">Other IT & Software</a></li>
+                </ul>
+              </div>
+              <div class="tabs-content" data-tab="7">
+                <ul>
+                  <li><a href="#">Accounting</a></li>
+                  <li><a href="#">Bookkeeping</a></li>
+                  <li><a href="#">Cryptocurrency</a></li>
+                  <li><a href="#">Economics</a></li>
+                  <li><a href="#">Finance</a></li>
+                  <li><a href="#">Taxes</a></li>
+                  <li><a href="#">Investing</a></li>
+                  <li><a href="#">Trading</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="drop-item">
+            <label class="label">
+              <a href="#" class="menu">Features
+                <img src="./../img/Dropdown.png" alt="">
+              </a>
+            </label>
+            <ul class="menu-items">
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-back" ></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-bookmarks"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-gear"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="drop-item">
+            <label class="label">
+              <a href="#" class="menu">Blog
+                <img src="./../img/Dropdown.png" alt="">
+              </a>
+            </label>
+            <ul class="menu-items">
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-back" ></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-bookmarks"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-gear"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum.</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="drop-item">
+            <label class="label">
+              <a href="#" class="menu">Shops
+                <img src="./../img/Dropdown.png" alt="">
+              </a>
+            </label>
+            <ul class="menu-items">
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-cart3"></i>
+                </div>
+                <a href="./shopping-cart.html">
+                  <span>Main Shopping Cart</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-bookmarks"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum.</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+              <li class="drop-items">
+                <div class="icons">
+                  <i class="bi bi-gear"></i>
+                </div>
+                <a href="#">
+                  <span>Lorem ipsum.</span>
+                  <p>Best practises</p>
+                </a>
+                <div class="arrow-right">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Search content -->
+        <form action="#" class="search-box">
+          <!-- Input for desktop -->
+          <input type="text" placeholder="Search your favourite course" required>
+          <!-- Input for mobile -->
+          <input class="for-mobile" type="text" placeholder="Search..." required>
+          <button type="submit" class="go-icon"><img src="./../img/search.png" alt=""></button>
+        </form>
+        <div class="menu-toggler">
+          <!-- Button for call search content -->
+          <label for="show-search" class="search-icon"><img src="./../img/search.png" alt=""></label>
+          <!-- Link for Shopping cart -->
+          <button type="button" class="btn shop-btn"><img src="./../img/shopping-cart.png" alt=""></button>
+          <!--User's content-->
+          <div class="user">
+            <div class="img-content">
+              <!-- This is the user part. When he hover, the content of the user data appears on the screen. Now it is given display: none -->
+              <div class="img">
+                <img src="./../img/teammm.png" alt="" class="user">
+              </div>
+            </div>
+            <div class="user-info-box">
+              <!-- Content containing user data -->
+              <div class="user-info">
+                <div class="border">
+                  <a href="#">Become a member</a>
+                </div>
+                <div class="border">
+                  <a href="#">New story</a>
+                  <a href="#">Stories</a>
+                  <a href="#">Series</a>
+                  <a href="#">Stats</a>
+                </div>
+                <div class="border">
+                  <a href="#">Bookmarks</a>
+                  <a href="#">Publications</a>
+                  <a href="#">Customize your interests</a>
+                </div>
+                <div class="">
+                  <a href="#">Profile</a>
+                  <a href="#">Setting</a>
+                  <a href="#">Help</a>
+                </div>
+              </div>
+            </div>
+            <div class="members">
+              <!-- List of all users -->
+              <label class="label">
+                <a href="#" class="menu">User
+                  <img src="./../img/Dropdown.png" alt="">
+                </a>
+              </label>
+              <div class="members-box">
+                <ul class="menu-items">
+                  <li><a href="#">User 2</a></li>
+                  <li><a href="#">User 3</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--The button that leads to the registration page -->
+          <a class="register-btn btn btn-orange" href="./register-page.html">Register</a>
+
+          <!-- Menu button -->
+          <label for="menu-bar" class="menu-bar-icon"><img src="./../img/Menu.png" alt=""></label>
+        </div>
+      </nav>
+      </div>
+  </section>
+  <section id="content">
+    <div class="top">
+      <h2 class="basic-title">Welcome back, ready for your next lesson?</h2>
+      <a class="btn btn-orange" href="#">View History</a>
+    </div>
+    <div class="content">
+      <div class="items">
+        <div class="item">
+          <picture>
+            <img src="./../img/team2.jpg" alt="">
+          </picture>
+          <div class="body">
+            <div class="middle">
+              <p>LESSON 5 OF 17 | 5m</p>
+              <h2>Merge Duplicates in Sketch - Inconsistent Symbols & Styles</h2>
+              <div class="bottom">
+                <img src="./../img/Rectangle 22.png" alt="">
+                <p>Nicole Brown</p>
+              </div>
+              <div class="line"><div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <picture>
+            <img src="./../img/team1.jpg" alt="">
+          </picture>
+          <div class="body">
+            <div class="middle">
+              <p>LESSON 5 OF 17 | 5m</p>
+              <h2>Merge Duplicates in Sketch - Inconsistent Symbols & Styles</h2>
+              <div class="bottom">
+                <img src="./../img/Rectangle 22.png" alt="">
+                <p>Nicole Brown</p>
+              </div>
+              <div class="line"><div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <picture>
+            <img src="./../img/team2.jpg" alt="">
+          </picture>
+          <div class="body">
+            <div class="middle">
+              <p>LESSON 5 OF 17 | 5m</p>
+              <h2>Merge Duplicates in Sketch - Inconsistent Symbols & Styles</h2>
+              <div class="bottom">
+                <img src="./../img/Rectangle 22.png" alt="">
+                <p>Nicole Brown</p>
+              </div>
+              <div class="line"><div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <picture>
+            <img src="./../img/team1.jpg" alt="">
+          </picture>
+          <div class="body">
+            <div class="middle">
+              <p>LESSON 5 OF 17 | 5m</p>
+              <h2>Merge Duplicates in Sketch - Inconsistent Symbols & Styles</h2>
+              <div class="bottom">
+                <img src="./../img/Rectangle 22.png" alt="">
+                <p>Nicole Brown</p>
+              </div>
+              <div class="line"><div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controller">
+        <button type="button" class="btn"  id="prev_1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+         </button>
+        <div class="line">
+          <span></span>
+        </div>
+        <button type="button" class="btn"  id="next_1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="getchoise">
+    <div class="getchoise">
+      <div class="top">
+        <h2 class="basic-title">
+          Recommended For you
+        </h2>
+        <div>
+          <ul>
+            <li class="dropdown">
+              <a href="./getchoise_cards.html">Design <img src="./../img/Dropdown.png" alt=""></a>
+            </li>
+            <ul class="ul">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+            </ul>
+          </ul>
+          <a href="./getchoise_cards.html" class="btn  btn-orange" >View all</a>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+          <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="slider-card">
+    <div class="slider-card">
+      <div class="top">
+        <h2 class="basic-title">The world’s largest selection of courses</h2>
+        <div>
+          <ul>
+            <li class="dropdown">
+              <a href="#">Design <img src="./../img/Dropdown.png" alt=""></a>
+            </li>
+            <ul class="ul">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+            </ul>
+          </ul>
+          <a class="btn  btn-orange" type="button">View all</a>
+        </div>
+      </div>
+      <div class="cards" id="cards">
+        <div class="product1">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controller">
+        <button type="button" class="btn"  id="prev1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+         </button>
+        <div class="line">
+          <span></span>
+        </div>
+        <button type="button" class="btn"  id="next1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="cards">
+    <div class="top">
+      <h2 class="basic-title">Choice favourite course from top category </h2>
+      <a class="btn btn-orange" href="#">See all Categories</a>
+    </div>
+    <div class="content">
+      <div class="item item-1">
+        <img src="./../img/cardicon.png" alt="">
+        <h2>Design</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+      <div class="item item-2">
+        <img src="./../img/development.png" alt="">
+        <h2>Development</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+      <div class="item item-3">
+        <img src="./../img/Software.png" alt="">
+        <h2>IT & Software</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+      <div class="item item-4">
+        <img src="./../img/technology.png" alt="">
+        <h2>IT & Software</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+      <div class="item item-5">
+        <img src="./../img/marketing.png" alt="">
+        <h2>Marketing</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+      <div class="item item-6">
+        <img src="./../img/photography.png" alt="">
+        <h2>Photography</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+      <div class="item item-7">
+        <img src="./../img/health.png" alt="">
+        <h2>Health & Care</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+      <div class="item item-8">
+        <img src="./../img/technology.png" alt="">
+        <h2>Technology</h2>
+        <p>
+          Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="everyone">
+    <div class="everyone">
+      <h2 class="basic-title">Online Coaching Lessons For Remote Learning.</h2>
+      <p>100% online learning from the world’s best universities and companies</p>
+      <button class="btn btn-orange">Join Today</button>
+    </div>
+  </section>
+  <section id="getchoise">
+    <div class="getchoise">
+      <div class="top">
+        <h2 class="basic-title">
+          Top courses in Personal Development
+        </h2>
+        <div>
+          <ul>
+            <li class="dropdown">
+              <a href="./getchoise_cards.html">Design <img src="./../img/Dropdown.png" alt=""></a>
+            </li>
+            <ul class="ul">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+            </ul>
+          </ul>
+          <a href="./getchoise_cards.html" class="btn  btn-orange" >View all</a>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+          <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="check" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="slider-card">
+    <div class="slider-card">
+      <div class="top">
+        <h2 class="basic-title">The world’s largest selection of courses</h2>
+        <div>
+          <ul>
+            <li class="dropdown">
+              <a href="#">Design <img src="./../img/Dropdown.png" alt=""></a>
+            </li>
+            <ul class="ul">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+            </ul>
+          </ul>
+          <a class="btn  btn-orange" type="button">View all</a>
+        </div>
+      </div>
+      <div class="cards" id="cards">
+        <div class="product2">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <!-- The first img appears on the screen on large devices and the second on the mobile device -->
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product2">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product2">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product2">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product2">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+        <div class="product2">
+          <div class="img-content">
+            <img src="./../img/edu.jpg" alt="" class="card-img-top">
+          </div>
+          <div class="top-content">
+            <h6>
+              <img class="basicicons" src="./../img/Star.png" alt="">
+              <img class="minicons" src="./../img/starmini.png" alt="">
+              4.5 (120)
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/eeyes.png" alt="">
+              <img class="minicons" src="./../img/eyemini.png" alt="">
+              28,500
+            </h6>
+            <h6>
+              <img class="basicicons" src="./../img/play.png" alt="">
+              <img class="minicons" src="./../img/playmini.png" alt="">
+              36 Lesion
+            </h6>
+          </div>
+          <h3> Everything You Need  to Know About Business </h3>
+          <div class="bottom-content">
+            <div class="left-content">
+              <img src="./../img/Rectangle 22.png"  alt="" />
+              <h6>Nicole Brown</h6>
+            </div>
+            <div class="right-content">
+              <strike>$99.99</strike>
+              <h5>$49.65</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controller">
+        <button type="button" class="btn"  id="prev2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+         </button>
+        <div class="line">
+          <span></span>
+        </div>
+        <button type="button" class="btn"  id="next2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="footer">
+      <div class="links">
+        <div>
+          <!-- input to open and close the following ul on mobile devices -->
+          <input type="checkbox" id="input-1">
+          <label for="input-1">
+            <p>Company</p>
+            <span class="plus">+</span>
+          </label>
+          <ul class="navb">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Affiliates</a></li>
+          </ul>
+        </div>
+        <div>
+          <input type="checkbox" id="input-2">
+          <label for="input-2">
+            <p>Commmunity</p>
+            <span class="plus">+</span>
+          </label>
+          <ul>
+            <li><a href="#">Go Premium</a></li>
+            <li><a href="#">Team Plans</a></li>
+            <li><a href="#">Refer a Friend</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Scholarships</a></li>
+            <li><a href="#">Free Classes</a></li>
+          </ul>
+        </div>
+        <div>
+          <input type="checkbox" id="input-3">
+          <label for="input-3">
+            <p>About us</p>
+            <span class="plus">+</span>
+          </label>
+          <ul>
+            <li><a href="#">Become a</a></li>
+            <li><a href="#">Teacher</a></li>
+            <li><a href="#">Teaching</a></li>
+            <li><a href="#">Academy</a></li>
+            <li><a href="#">Teacher</a></li>
+            <li><a href="#">Handbook </a></li>
+          </ul>
+        </div>
+        <div>
+          <input type="checkbox" id="input-4">
+          <label for="input-4">
+            <p>Support</p>
+            <span class="plus">+</span>
+          </label>
+          <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">System Requirements</a></li>
+            <li><a href="#">Register Activation</a></li>
+            <li><a href="#">Key</a></li>
+            <li><a href="#">Site feedback</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom">
+        <h2>© 2015-2020 Skillfy Education Private Limited. All rights reserved</h2>
+        <div class="link">
+          <a href="#"><img src="./../img/fb.png" alt=""></a>
+          <a href="#"><img src="./../img/tw.png" alt=""></a>
+          <a href="#"><img src="./../img/gg.png" alt=""></a>
+          <a href="#"><img src="./../img/in.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+  // Multi menu
+  function setupTabs() {
+    document.querySelectorAll(".tabs-button").forEach(button => {
+        button.addEventListener("mousemove", () => {
+          const sideBar = button.parentElement;
+          const tabsContainer = sideBar.parentElement;
+          const tabNumber = button.dataset.forTab;
+          const tabToActivate = tabsContainer.querySelector(`.tabs-content[data-tab="${tabNumber}"]`);
+          sideBar.querySelectorAll(".tabs-button").forEach(button => {
+            button.classList.remove("tabs-button--active");
+          });
+          tabsContainer.querySelectorAll(".tabs-content").forEach(tab => {
+            tab.classList.remove("tabs-content--active");
+          });
+          button.classList.add("tabs-button--active");
+          tabToActivate.classList.add("tabs-content--active");
+        })
+    });
+  }
+  setupTabs();
+  // First slider
+    let prev = document.getElementById('prev_1');
+    let next = document.getElementById('next_1');
+    let product = document.getElementsByClassName('item');
+    let product_page = Math.ceil(product.length/2);
+    let l = 0;
+    let movePer = 50.34;
+    let maxMove = 503;
+    //Mobile view Tablet
+    let tablet_big_view = window.matchMedia("(max-width: 1024px)");
+    if (tablet_big_view.matches)
+    {
+      movePer = 51.2;
+      maxMove = 504;
+    }
+    let tablet_view = window.matchMedia("(max-width: 768px)");
+    if (tablet_view.matches)
+    {
+      movePer = 72.36;
+      maxMove = 504;
+    }
+    let right_mover = ()=>{
+      l = l + movePer;
+      if(product==1){l=0}
+      for(const i of product)
+      {
+        if(l>maxMove) {l=l-movePer;}
+        i.style.left = '-' + l + '%';
+      }
+    }
+    let left_mover = ()=>{
+      l=l-movePer;
+      if (l<=0) {l=0;}
+      for(const i of product)
+      {
+        if(product_page>1)
+        i.style.left = '-' + l + '%';
+      }
+    }
+    prev.onclick = ()=>{left_mover();}
+    next.onclick = ()=>{right_mover();}
+
+// Second slider
+    let prev1 = document.getElementById('prev1');
+    let next1 = document.getElementById('next1');
+    let product1 = document.getElementsByClassName('product1');
+    let product1_page = Math.ceil(product1.length/3);
+    let left = 0;
+    let movePer1 = 33.34;
+    let maxMove1 = 303;
+
+    let right_mover1 = ()=>{
+      left = left + movePer1;
+      if(product1==1){l=0}
+      for(const i of product1)
+      {
+        if(left>maxMove) {left=left-movePer1;}
+        i.style.left = '-' + left + '%';
+      }
+    }
+    let left_mover1 = ()=>{
+      left=left - movePer1;
+      if (left<=0) {left=0;}
+      for(const i of product1)
+      {
+        if(product1_page>1)
+        i.style.left = '-' + left + '%';
+      }
+    }
+    prev1.onclick = ()=>{left_mover1();}
+    next1.onclick = ()=>{right_mover1();}
+
+// Third slider
+let prev2 = document.getElementById('prev2');
+let next2 = document.getElementById('next2');
+let product2 = document.getElementsByClassName('product2');
+let product2_page = Math.ceil(product2.length/4);
+let left2 = 0;
+let movePer2 = 33.34;
+let maxMove2 = 303;
+
+let right_mover2 = ()=>{
+  left2 = left2 + movePer2;
+  if(product2==1){left2=0}
+  for(const i of product2)
+  {
+    if(left2>maxMove2) {left2=left2-movePer2;}
+    i.style.left = '-' + left2 + '%';
+  }
+}
+let left_mover2 = ()=>{
+  left2=left2 - movePer2;
+  if (left2<=0) {left2=0;}
+  for(const i of product2)
+  {
+    if(product2_page>1)
+    i.style.left = '-' + left2 + '%';
+  }
+}
+prev2.onclick = ()=>{left_mover2();}
+next2.onclick = ()=>{right_mover2();}
+  </script>
+</body>
+</html>

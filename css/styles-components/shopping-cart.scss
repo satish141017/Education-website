@@ -1,0 +1,390 @@
+section{
+  padding: 80px 80px;
+}
+
+section#main{
+  padding-top: 4rem;
+  margin-top: 1rem;
+  background-color: var(--background-light-color-2);
+  padding-bottom: 140px;
+  .main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    p{
+      a{
+        color: var(--font-gray-color);
+        font-size: 18px;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+section#content{
+  transform: translateY(-70px);
+  padding: 0 80px;
+  .content{
+    display: flex;
+    .left-content{
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+      .item{
+        margin-bottom: 30px;
+        width: 800px;
+        height: 184px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 30px;
+        border-radius: 5px;
+        border: 1px solid var(--font-lead-color);
+        background: var(--white-color);
+        picture{
+          width: 150px;
+          height: 125px;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .body{
+          width: 60%;
+          margin-left: 50px;
+          display: flex;
+          .middle{
+            width: 275px;
+            flex-direction: row;
+            h2{
+              font-size: 23px;
+              color: var(--font-dark-gray-color);
+              line-height: 35px;
+            }
+            .bottom{
+              display: flex;
+              align-items: center;
+              padding-top: 13px;
+              img{margin-right: 14px;}
+              p{
+                font-size: 14px;
+                color: var(--font-light-color);
+              }
+            }
+          }
+          .cost{
+            width: 40%;
+            margin-left: 50px;
+            padding-top: 20px;
+            width: 145px;
+            h2{
+              font-size: 24px;
+              color: var(--font-dark-gray-color);
+            }
+            p{
+              margin-top: 14px;
+              color: var(--font-lead-color);
+              font-size: 18px;
+              font-weight: normal;
+            }
+          }
+        }
+        button{
+          padding-left: 3rem;
+        }
+      }
+    }
+    .cart{
+      width: 340px;
+      height: 612px;
+      padding: 30px;
+      background: var(--background-light-color-3);
+      border-radius: 4px;
+      position: relative;
+      h2{
+        color: var(--font-dark-gray-color);
+        font-size: 24px;
+      }
+      h5{
+        font-size: 18px;
+        color: var(--font-dark-gray-color);
+        margin-top: 20px;
+      }
+      .pay_cards{
+        display: flex;
+        justify-content: space-between;
+
+      }
+      p{
+        margin: 15px 0 20px 0;
+        height: 44px;
+        width: 280px;
+        display: flex;
+        justify-content: start;
+        z-index: 10;
+        input{margin-right: 10px;}
+        label{margin-right: 15px;}
+      }
+      form{
+        input{
+          width: 280px;
+          height: 54px;
+          border-radius: 5px;
+          padding: 17px;
+          border: 1px solid var(--font-lead-color);
+          margin-bottom: 18px;
+          &:placeholder{
+            font-size: 14px;
+            color: var(--font-lead-color);
+          }
+        }
+        p{
+          margin: 0;
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: space-between;
+          span{
+            font-size: 24px;
+            font-weight: bold;
+          }
+        }
+        input[type=submit]{
+          border-radius: 5px;
+          border: none;
+          background: var(--background-orange-color);
+          color: var(--white-color);
+          font-size: 18px;
+          transition: .3s ease;
+          &:hover{
+            border: 1px solid var(--background-orange-color);
+            color: var(--background-orange-color);
+            background: var(--white-color);
+          }
+        }
+      }
+    }
+    .check-out{
+      display: none;
+    }
+    .check-out{
+      height: 340px;
+      .check{
+        width: 100%;
+        height: 55px;
+        color: var(--white-color);
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        background: var(--background-orange-color);
+      }
+      p{
+        display: none;
+      }
+      div.total{
+        margin: 0;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        span{
+          font-size: 24px;
+          font-weight: bold;
+        }
+        .light{
+          margin-left: 4rem;
+          display: flex;
+          align-items: center;
+          strike, span{
+            font-weight: normal;
+            font-size: 18px;
+            color: var(--font-lead-color);
+            margin: 5px;
+          }
+          display: flex;
+        }
+      }
+      form{
+        margin-top: 30px;
+        position: relative;
+        .apply{
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+section#slider-card{
+  background-color: var(--background-light-color-2) !important;
+}
+@media (max-width: 1200px){
+  section#content{
+    .content{
+      flex-direction: column;
+      flex-wrap: wrap;
+      .left-content{
+        justify-content: center;
+        width: auto;
+        .item{
+          width: 100%;
+        }
+      }
+      .cart{
+        width: 50%;
+        input[type=text], input[type=submit], p{
+          width: 100%;
+        }
+        .apply{
+          width: 100px !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px){
+  section{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  section#content{
+    .content{
+      flex-direction: column;
+      flex-wrap: wrap;
+      .left-content{
+        justify-content: center;
+        width: 100%;
+        .item{
+          width: auto;
+          padding: 20px;
+          height: 200px;
+          picture{
+            padding-top: 10px;
+            height: 100px;
+            width: 100px;
+          }
+          .body{
+            margin-left: 30px;
+            h2{
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .bottom{
+              padding-top: 0;
+            }
+          }
+          .cost{
+            margin-left: 20px !important;
+          }
+          .btn{
+            padding-left: 50px !important;
+          }
+        }
+      }
+      .cart{
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 576px){
+  section{
+    padding: 20px 20px;
+  }
+  section#main{
+    .main{
+      flex-direction: column;
+      h2{
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  section#content{
+    padding: 20px 20px;
+    padding-bottom: 0;
+    transform: translateY(-140px);
+    .content{
+      flex-direction: column;
+      flex-wrap: wrap;
+      .left-content{
+        justify-content: center;
+        width: 100%;
+        .item{
+          width: 100%;
+          padding: 20px 12px;
+          height: 175px;
+          picture{
+            height: 75px;
+            width: 75px;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .body{
+            display: block;
+            margin-left: 12px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .middle{
+              width: auto;
+              h2{
+                font-size: 16px;
+                line-height: 30px;
+              }
+              .bottom{
+                padding: 0;
+                width: auto;
+                margin-bottom: 0;
+              }
+            }
+            .cost{
+              padding: 0;
+              display: flex;
+              margin: 0;
+              align-items: center;
+              width: 100%;
+              h2{
+                display: inline-block;
+                font-size: 20px;
+                margin: 9px;
+              }
+              p{
+                display: flex;
+                margin-top: 0;
+                width: 150px !important;
+                padding: 0;
+                font-size: 13px;
+                strike{
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+          .btn{
+            padding-left: 5px;
+          }
+        }
+      }
+      .buy-now{
+        h2{
+          font-size: 22px;
+        }
+        h5{
+          font-size: 16px;
+        }
+        form{
+          input{
+            height: 56px;
+            &:placeholder{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

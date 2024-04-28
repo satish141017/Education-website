@@ -1,0 +1,102 @@
+section#header {
+  margin-top: 4.5rem;
+  display: flex;
+  position: relative;
+  max-width: 1360px;
+  min-width: 1216px;
+  justify-content: space-between;
+  height: 555px;
+}
+section#header .text-content {
+  max-width: 550px;
+  padding-top: 84px;
+  position: relative;
+}
+section#header .text-content h2 {
+  min-width: 500px;
+  margin-bottom: 1px;
+}
+section#header .text-content p {
+  font-size: 18px;
+  color: var(--font-gray-color);
+}
+section#header .text-content p span {
+  color: var(--font-gold-color);
+}
+@media screen and (max-width: 768px) {
+  section#header .text-content p {
+    font-size: 16px;
+  }
+}
+section#header .text-content button {
+  font-size: 18px;
+  width: 223px;
+  height: 57px;
+  margin-top: 25px;
+}
+section#header .img-content {
+  position: absolute;
+  width: 671px;
+  height: 555px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+section#header .img-content img {
+  width: 100%;
+  height: 100%;
+}
+
+section#cards {
+  padding-bottom: 80px;
+}
+section#cards .card-items {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+section#cards .card-items .card-item {
+  width: 270px;
+  height: 313px;
+  position: relative;
+}
+section#cards .card-items .card-item img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section#cards .card-items .card-item a {
+  text-decoration: none;
+  color: var(--font-gray-color);
+  padding: 10px 20px;
+  background: var(--white-color);
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  bottom: -7%;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.07);
+}
+
+section#popular .card-items {
+  display: flex;
+  justify-content: flex-start;
+  padding: 4rem 0;
+}
+section#popular .card-items:-webkit-scrollbar {
+  display: none;
+}
+section#popular .card-items .card-blog {
+  position: relative;
+  box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.07) !important;
+  display: block;
+  padding: 20px;
+  width: 560px;
+}
+section#popular .card-items .card-blog .picture img {
+  width: 520px !important;
+  height: 324px !important;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=blog.css.map */
